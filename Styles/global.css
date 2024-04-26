@@ -25,5 +25,11 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(45deg,var(--altYellow) 5%,var(--princPink),var(--princeRoxo));
+    background-color: var(--princPink)
+}
+
+@media (min-width: 720px) {
+    body {
+        background-image: linear-gradient(45deg,var(--altYellow) 5%,var(--princPink),var(--princeRoxo));
+    }
 }

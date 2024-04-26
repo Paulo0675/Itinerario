@@ -3,14 +3,17 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     height: 12vh;
-
+    padding: 10px;
+    column-gap: .7rem;
+    row-gap: 1rem;
 }
 
 /*Nome do Site*/
 .nome{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -25,17 +28,12 @@
 }
 
 /*Links e estrutura de navegação*/
-.nav_cab_line_1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .nav_list_1{
     display: flex;
     align-items: center;
     list-style: none;
-    column-gap: 48px;
+    column-gap: 2rem;
 }
 
 .nav_link_1{
@@ -71,7 +69,11 @@
     transition: transform 0.4s;
 }
 
-/*Butão entrar*/
+/*Botão entrar*/
+
+.btn_login {
+    display: block;
+}
 
 .btn_sign{
     border: none;
@@ -79,6 +81,7 @@
     border-radius: 30px;
     padding: 10px 20px;
     transition: 0.4s;
+    margin-bottom: 5px;
 }
 .btn_sign a{
     text-decoration: none;
@@ -124,4 +127,23 @@
 .icon{
     color: #05F2DB;
     font-size: 30px;
+}
+
+.menu_hamburguer {
+    display: block;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.205);
+    color: white;
+}
+
+@media (min-width: 720px) {
+    .head_cabecalho {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 1440px) {
+    .nome {
+        display: flex;
+    }
 }
