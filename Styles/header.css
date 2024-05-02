@@ -136,6 +136,7 @@
     color: white;
 }
 
+/* MediaQuery*/
 @media (min-width: 720px) {
     .head_cabecalho {
         flex-wrap: nowrap;
