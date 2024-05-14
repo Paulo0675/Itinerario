@@ -59,12 +59,17 @@
     font-weight: 400;
     color: white;
 }
+
+.main_content_text button:hover {
+    background-color: white;
+    color: #F25ECB;
+    transform: scale(1.05, 1.05);
+    transition: .5s
+}
+
 .main_content img{
     width: auto;
 }
-
-
-
 
 @media (min-width: 720px) {
     .main_content {
