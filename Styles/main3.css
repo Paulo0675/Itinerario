@@ -38,11 +38,11 @@
     border-radius: 30px;
     font-weight: 400;
     color: white;
+    transition: .3s
 }
 
 .texto-infos button:hover {
     transform: scale(1.05, 1.05);
-    transition: .5s
 }
 
 .cards-infos {
@@ -74,6 +74,7 @@
     width: 300px;
     height: 300px;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: .3s;
 }
 
 .card-infos .main_icon {
@@ -92,5 +93,4 @@
 .card-infos:hover {
     transform: scale(1.03, 1.03);
     box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
-    transition: .5s;
 }

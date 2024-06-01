@@ -15,6 +15,7 @@
     align-items: center;
     justify-content: space-around;
     width: 100%;
+    margin-bottom: 1rem;
 }
 
 .main_content_text{
@@ -22,6 +23,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 32px;
+    margin-top: 1.8rem;
 }
 .main_content_text h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -57,13 +59,13 @@
     border-radius: 30px;
     font-weight: 400;
     color: white;
+    transition: .3s;
 }
 
 .main_content_text button:hover {
     background-color: white;
     color: #F25ECB;
     transform: scale(1.05, 1.05);
-    transition: .5s
 }
 
 .main_content img{
