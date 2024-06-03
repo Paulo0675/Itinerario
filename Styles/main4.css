@@ -1,12 +1,12 @@
 .blocos_container {
     width: 100%;
-    background-color: var(--princCian);
+    background-color: var(--princPink);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 1.5rem;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .bloco_item {
@@ -38,14 +38,14 @@
 }
 
 .blocos_container i {
-    font-size: 4rem;
-    margin-top: -48px;
-    margin-bottom: -48px;
+    font-size: 4.4rem;
+    margin-top: -50px;
+    margin-bottom: -50px;
     z-index: 1;
 }
 
 .material-symbols-outlined {
-    color: var(--altPink);
+    color: var(--princYellow);
 }
 
 .material-symbols-outlined:nth-child(3) {
@@ -56,15 +56,16 @@
     display: none;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 740px) {
 
     .blocos_container {
         flex-direction: row;
+        width: 100%;
     }
 
     .blocos_container i {
-        margin-left: -48px;
-        margin-right: -48px;
+        margin-left: -50px;
+        margin-right: -50px;
     }
 
     .material-symbols-outlined:nth-child(2) {
