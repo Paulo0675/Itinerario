@@ -12,7 +12,7 @@
 .bloco_item {
     background-color: white;
     max-width: 300px;
-    height: 250px;
+    height: auto;
     padding: 10px 3rem;
     
     display: flex;
