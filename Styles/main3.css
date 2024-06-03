@@ -1,3 +1,5 @@
+@import url('main4.css');
+
 .infos {
     width: 100%;
     background-color: white;
@@ -17,21 +19,21 @@
 .infos h2 {
     color: #1c1c9c;
     font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonteTitulos);
 }
 
 .infos h3 {
     color: #1c1c9c;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonteTitulos);
 }
 
 .texto-infos p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--fonteParagrafos);
 }
 
 .texto-infos button {
-    background-color: #F25ECB;
+    background-color: var(--altPink);
     width: 180px;
     height: 60px;
     border: none;
@@ -82,12 +84,12 @@
 }
 
 .card-infos h4 {
-    color: #1c1c9c;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--blue);
+    font-family: var(--fonteTitulos);
 }
 
 .card-infos p {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--fonteParagrafos);
 }
 
 .card-infos:hover {

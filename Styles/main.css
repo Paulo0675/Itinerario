@@ -26,20 +26,20 @@
     margin-top: 1.8rem;
 }
 .main_content_text h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: var(--fonteTitulos);
     text-align: left;
     font-weight: 400;
     font-size: 32px;
     color: white;
 }
 .main_content_text h2{
-    font-family: sans-serif;
+    font-family: var(--fonteTitulos);
     font-weight: 400;
     font-size: 24px;
     color: white;
 }
 .main_content h3{
-    font-family: sans-serif;
+    font-family: var(--fonteTitulos);
     font-weight: 400;
     font-size: 18px;
     color: white;
@@ -47,12 +47,12 @@
 .main_content_text p{
     text-align: left;
     max-width: 400px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: var(--fonteParagrafos);
     font-size: 18px;
     color: white;
 }
 .main_content_text button{
-    background-color: #F25ECB;
+    background-color: var(--altPink);;
     width: 180px;
     height: 60px;
     border: none;
@@ -64,7 +64,7 @@
 
 .main_content_text button:hover {
     background-color: white;
-    color: #F25ECB;
+    color: var(--altPink);
     transform: scale(1.05, 1.05);
 }
 
